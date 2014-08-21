@@ -1,0 +1,56 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	new file:   .classpath
+#	new file:   .project
+#	new file:   .settings/org.eclipse.core.resources.prefs
+#	new file:   AndroidManifest.xml
+#	new file:   architecture
+#	new file:   ic_launcher-web.png
+#	new file:   libs/android-support-v4.jar
+#	new file:   libs/gson-2.2.4.jar
+#	new file:   proguard-project.txt
+#	new file:   project.properties
+#	new file:   res/drawable-hdpi/ic_launcher.png
+#	new file:   res/drawable-hdpi/tab_home.png
+#	new file:   res/drawable-hdpi/tab_home_p.png
+#	new file:   res/drawable-hdpi/tab_life.png
+#	new file:   res/drawable-hdpi/tab_life_p.png
+#	new file:   res/drawable-hdpi/tab_user.png
+#	new file:   res/drawable-hdpi/tab_user_p.png
+#	new file:   res/drawable-mdpi/ic_launcher.png
+#	new file:   res/drawable-xhdpi/ic_launcher.png
+#	new file:   res/drawable-xxhdpi/ic_launcher.png
+#	new file:   res/layout/activity_main.xml
+#	new file:   res/layout/common_view_title.xml
+#	new file:   res/layout/fragment_home.xml
+#	new file:   res/layout/fragment_life.xml
+#	new file:   res/layout/fragment_user.xml
+#	new file:   res/menu/main.xml
+#	new file:   res/values/color.xml
+#	new file:   res/values/dimens.xml
+#	new file:   res/values/strings.xml
+#	new file:   res/values/styles.xml
+#	new file:   src/com/common/burning/architecture/BaseActivity.java
+#	new file:   src/com/common/burning/architecture/MainActivity.java
+#	new file:   src/com/common/burning/fragment/HomeFragment.java
+#	new file:   src/com/common/burning/fragment/LifeFragment.java
+#	new file:   src/com/common/burning/fragment/UserFragment.java
+#	new file:   src/com/common/burning/model/BaseModel.java
+#	new file:   src/com/common/burning/model/CateModel.java
+#	new file:   src/com/common/burning/model/FieldModel.java
+#	new file:   src/com/common/burning/model/TemplateModel.java
+#	new file:   src/com/common/burning/unit/ConvertUtil.java
+#	new file:   src/com/common/burning/unit/GlobalData.java
+#	new file:   src/com/common/burning/unit/StringUtil.java
+#	new file:   src/com/common/burning/unit/ToastUtils.java
+#	new file:   src/com/common/burning/unit/Utils.java
+#	new file:   src/com/common/burning/widget/IndicatorFragment.java
+#	new file:   src/com/common/burning/widget/TitleView.java
+#	new file:   templates-android
+#
+
