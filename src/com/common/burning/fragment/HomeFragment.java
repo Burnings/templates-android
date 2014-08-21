@@ -38,19 +38,13 @@ public class HomeFragment extends Fragment implements OnClickListener {
 		initTitle();
 		ininView();
 	}
-	/**
-	 * 设置标题栏
-	 */
 	private void initTitle() {
 		mTitle = (TitleView) mParent.findViewById(R.id.home_title);
-		mTitle.setTitle("主标题");
+		mTitle.setTitle("棣栭〉");
 		mTitle.removeLeftButton();
 		mTitle.removeRightButton();
 	}
 
-	/**
-	 * 设置页面初始化
-	 */
 	private void ininView() {
 		
 	}

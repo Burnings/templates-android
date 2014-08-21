@@ -36,19 +36,12 @@ public class LifeFragment extends Fragment implements OnClickListener {
 		initTitle();
 		ininView();
 	}
-	/**
-	 * 设置标题栏
-	 */
 	private void initTitle() {
 		mTitle = (TitleView) mParent.findViewById(R.id.life_title);
-		mTitle.setTitle("标题");
+		mTitle.setTitle("life");
 		mTitle.removeLeftButton();
 		mTitle.removeRightButton();
 	}
-
-	/**
-	 * 设置页面初始化
-	 */
 	private void ininView() {
 		
 	}

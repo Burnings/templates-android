@@ -13,12 +13,6 @@ import android.view.Gravity;
 import android.view.View.OnClickListener;
 import android.widget.ImageView;
 
-/**
- * @author Vision-Chen 
- * �ܹ���װ��2014.08.15
- * �����������Զ���ײ�������
- * 
- */
 public class IndicatorFragment extends LinearLayout implements OnClickListener {
 
 	private int mDefaultIndicator = 0;
@@ -52,7 +46,6 @@ public class IndicatorFragment extends LinearLayout implements OnClickListener {
 		init();
 	}
 
-	// ��ʼ������
 	private View createIndicator(int iconResID, int stringResID,
 			int stringColor, String iconTag, String textTag) {
 
@@ -82,9 +75,6 @@ public class IndicatorFragment extends LinearLayout implements OnClickListener {
 		return view;
 
 	}
-	/**
-	 * �����ʼ��
-	 */
 	private void init() {
 		mIndicators = new View[3];
 		mIndicators[0] = createIndicator(R.drawable.tab_home,
@@ -107,9 +97,7 @@ public class IndicatorFragment extends LinearLayout implements OnClickListener {
 		addView(mIndicators[2]);
 	}
 
-	// ����¼�
 	public static void setIndicator(int which) {
-		// �����ǰ��״̬.
 		mIndicators[mCurIndicator].setBackgroundColor(Color.alpha(0));
 		ImageView prevIcon;
 		TextView prevText;
@@ -140,7 +128,6 @@ public class IndicatorFragment extends LinearLayout implements OnClickListener {
 			break;
 		}
 
-		// �ı䵱ǰ��״̬���û�����󱳾��仯
 		mIndicators[which].setBackgroundResource(R.color.clear);
 		ImageView currIcon;
 		TextView currText;

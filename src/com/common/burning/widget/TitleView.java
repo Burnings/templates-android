@@ -10,11 +10,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-/**
- * @author Vision-Chen 
- * 架构封装：2014.08.15
- * 功能描述：自定义顶部工具栏
- */
 public class TitleView extends FrameLayout implements View.OnClickListener {
 
 	private Button mLeftBtn;

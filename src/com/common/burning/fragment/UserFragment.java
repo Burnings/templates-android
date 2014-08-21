@@ -39,19 +39,12 @@ public class UserFragment extends Fragment implements OnClickListener {
 		ininView();
 	}
 
-	/**
-	 * 设置标题栏
-	 */
 	private void initTitle() {
 		mTitle = (TitleView) mParent.findViewById(R.id.user_title);
-		mTitle.setTitle("主标题");
+		mTitle.setTitle("user");
 		mTitle.removeLeftButton();
 		mTitle.removeRightButton();
 	}
-
-	/**
-	 * 设置页面初始化
-	 */
 	private void ininView() {
 
 	}
